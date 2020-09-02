@@ -1,4 +1,4 @@
-CREATE TABLE "gallery" (
+CREATE TABLE "example" (
 	"id" SERIAL PRIMARY KEY,
 	"path" VARCHAR(350) NOT NULL,
 	"description" VARCHAR (250) NOT NULL,
