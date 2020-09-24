@@ -5,8 +5,17 @@ body{
 
 .App {
   text-align: center;
+  margin-top: 6em;
+  margin-bottom: 6em;
+border: 1px solid blue;
+height: 40em;
+
 }
 
-@keyframes {
+.facebook{
+  padding-top: 6em;
+  padding-bottom: 6em;
+  border: 1px solid red;
+  height: 10em;
 
 }
