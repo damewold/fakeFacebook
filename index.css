@@ -1,0 +1,22 @@
+* { padding: 0; margin: 0; }
+html{
+    background-color: #f0f2f5;
+    border: 4px solid red;
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    border: 3px solid yellow;
+    padding-top: 72px ;
+    padding-bottom: 112px;
+    height: 536px;
+    width: 100%;
+    background-color: #f0f2f5;
+}
+.container{
+    border: 1px solid blue;
+    height: 536px;
+    width: 100%;
+    display: block;
+}
