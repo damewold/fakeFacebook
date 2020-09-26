@@ -5,11 +5,19 @@ html{
     width: 100%;
 }
 
+.global-container{
+    border: 5px solid green;
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    position: relative;
+    zoom: 1;
+    display: block;
+}
 .container{
     border: 3px solid yellow;
     padding-top: 72px ;
     padding-bottom: 112px;
-  
     width: 100%;
     background-color: #f0f2f5;
 }
