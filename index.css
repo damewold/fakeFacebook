@@ -293,9 +293,14 @@ li:last-child{
     padding-right: 0;
 }
 
-#plus{
-    font-size: 14px;
+.lang-border{
+    border-bottom: 1px solid #dddfe2;
+    font-size: 1px;
+    height: 8px;
+    margin-bottom: 8px;
+    display: block;
 }
+
 body, button, input, label, select, td, textarea {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 12px;
