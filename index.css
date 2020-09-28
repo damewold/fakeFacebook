@@ -61,13 +61,31 @@ height: 720px;
     width: 580px;
    height: 250px;
     float: left;
+    display: inline-block;
+    vertical-align: top;
+}
 
+.box-image{
+    display: block;
+    padding: 112px 0 16px;
+}
+.fb_img{
+    height: 106px;
+    margin: -28px;
+    border: 0;
+}
+
+.connect{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
 }
 
 .input-wrapper{
     display: inline-block;
     vertical-align: top;
-    border: 2px solid indigo;
     width:396px;
     float: left;
     height:490px;
@@ -76,7 +94,6 @@ height: 720px;
 .input-container{
     height: 456px;
     width: 396px;
-    border: 1px solid blue;
     display: block;
 }
 .input-group{
@@ -91,7 +108,7 @@ height: 720px;
     margin: 40px 0 0;
     padding: 20px 0 28px;
     width: 396px;
-    border: 2px solid black;
+ 
 }
 
 form{
