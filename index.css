@@ -1,17 +1,14 @@
 * { padding: 0; margin: 0; }
 html{
-    background-color: #f0f2f5;
-    border: 4px solid red;
+    background-color:white;
     width: 100%;
 }
 
 body{
-    color: #1c1e21;
     direction: ltr;
     line-height: 1.34;
 }
 .global-container{
-    border: 5px solid green;
     width: 100%;
     padding-bottom: 20px;
     margin: 0 auto;
@@ -19,16 +16,13 @@ body{
     zoom: 1;
     display: block;
     background-color: white;
-    font-family: 'system-ui, -apple-system, BlinkMacSystemFont, .SFNSText-Regular', sans-serif;
 }
 .container{
-    border: 3px solid yellow;
     width: 100%;
     background-color: #f0f2f5;
 height: 720px;
 }
 .container-body{
-    border: 1px solid blue;
     width: 100%;
     display: block;
     padding-top: 72px ;
@@ -251,28 +245,19 @@ input {
 }
 
 textarea, .inputtext, .inputpassword {
-    -webkit-appearance: none;
     border: 1px solid #ccd0d5;
     border-radius: 0;
     margin: 0;
     padding: 3px;
 }
-input[type="hidden" i] {
-    display: none;
-    appearance: initial;
-    background-color: initial;
-    cursor: default;
-    padding: initial;
-    border: initial;
-}
 .bottom{
-    border: 6px solid Purple;
     padding-top: 20px;
     display: block;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 12px;
     height: 156px;
     background-color:white;
+    width: 100%;
 }
 
 .pageFooter{
@@ -299,6 +284,30 @@ li:last-child{
     height: 8px;
     margin-bottom: 8px;
     display: block;
+}
+
+.links-cointainer{
+    padding-left: 20px;
+    vertical-align: top;
+    display: inline-block;
+}
+.links{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    margin-left: -20px;
+    color: #737373;
+    font-size: 12px;
+    font-weight: normal ;
+}
+
+.copyright{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 11px;
+    color: #737373;
+    padding-left: 20px;
 }
 
 body, button, input, label, select, td, textarea {
