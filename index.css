@@ -48,7 +48,7 @@ height: 720px;
     position: relative;
     width: 980px;
     display: block;
-    height:496px;
+    height:494px;
 
 
 }
@@ -64,16 +64,99 @@ height: 720px;
 
 }
 
-.inputs{
+.input-wrapper{
     display: inline-block;
     vertical-align: top;
     border: 2px solid indigo;
     width:396px;
     float: left;
-    height:484px;
-    
+    height:490px;
 }
 
+.input-container{
+    height: 456px;
+    width: 396px;
+    border: 1px solid blue;
+    display: block;
+}
+.input-group{
+    padding-bottom: 24px;
+    padding-top: 10px;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+    border: 2px solid black;
+}
+
+form{
+    text-align: center;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.inputs{
+    display: inline-block;
+    font-size: 14px;
+    margin: auto;
+    padding: 6px 0;
+    font-size: 17px;
+    width: 364px;
+}
+
+
+input {
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(195, 195, 195));
+    border-image: initial;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    height: 22px;
+    line-height: 16px;
+    padding: 0 8px;
+    vertical-align: middle;
+    width: 364px;
+}
+
+textarea, .inputtext, .inputpassword {
+    -webkit-appearance: none;
+    border: 1px solid #ccd0d5;
+    border-radius: 0;
+    margin: 0;
+    padding: 3px;
+}
+input[type="hidden" i] {
+    display: none;
+    appearance: initial;
+    background-color: initial;
+    cursor: default;
+    padding: initial;
+    border: initial;
+}
 .bottom{
     border: 6px solid Purple;
     padding-top: 20px;
@@ -88,3 +171,4 @@ body, button, input, label, select, td, textarea {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 12px;
 }
+
