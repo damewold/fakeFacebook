@@ -135,11 +135,16 @@ input {
     color: #1d2129;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 12px;
-    height: 22px;
     line-height: 16px;
     padding: 0 8px;
     vertical-align: middle;
-    width: 364px;
+    width: 345px;
+    height:62px;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    border-radius: 8px;
 }
 
 textarea, .inputtext, .inputpassword {
