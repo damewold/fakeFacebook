@@ -240,7 +240,7 @@ input {
     border: 1px solid #dddfe2;
     color: #1d2129;
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     border-radius: 8px;
 }
 
@@ -312,6 +312,6 @@ li:last-child{
 
 body, button, input, label, select, td, textarea {
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 12px;
+    font-size: 14px;
 }
 
