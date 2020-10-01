@@ -293,8 +293,11 @@ li:last-child{
     display: block;
 }
 
-.links-cointainer{
-    padding-left: 1.25em;
+.language{
+    font-size: 0.75em;
+}
+.links-cointainer, .language{
+    padding-left: 1.55em;
     vertical-align: top;
     display: inline-block;
 }
@@ -319,7 +322,6 @@ li:last-child{
 
 body, input, label, select, td, textarea {
     font-family: Helvetica, Arial, sans-serif;
-    /* font-size: 0.95em; */
 }
 
 
