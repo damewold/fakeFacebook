@@ -11,7 +11,7 @@ body{
 }
 .global-container{
     width: 100%;
-    padding-bottom: 20px;
+    padding-bottom: 1.25em;
     margin: 0 auto;
     position: relative;
     zoom: 1;
@@ -22,26 +22,27 @@ body{
     position: relative;
     width: 100%;
     background-color: #f0f2f5;
+    height: 51.5em;
 }
 .container-body{
     width: 100%;
     display: block;
-    padding-top: 72px ;
-    padding-bottom: 112px;
+    padding-top: 4.5em ;
+    padding-bottom: 7em;
 }
 
 .content{
-    height:536px;
+    height:33.5em;
     width: 100%;
 }
 
 .facebook{
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 1.25em 0;
     position: relative;
-    width: 980px;
+    width: 64.52em;
     display: block;
-    height:494px;
+    height:36em;
 
 
 }
@@ -49,9 +50,9 @@ body{
 .box{
     box-sizing: border-box;
     margin-right: 0;
-    padding-right: 32px;
-    width: 580px;
-   height: 250px;
+    padding-right: 2em;
+    width: 38.2em;
+   height: 15.625em;
     float: left;
     display: inline-block;
     vertical-align: top;
@@ -59,48 +60,49 @@ body{
 
 .box-image{
     display: block;
-    padding: 112px 0 16px;
+    padding: 6.85em 0 1em;
 }
 .fb_img{
-    height: 106px;
-    margin: -28px;
+    height: 8.395em;
+    margin: -1.75em;
     border: 0;
 }
 
 .connect{
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 28px;
+    font-size: 1.75em;
     font-weight: normal;
-    line-height: 32px;
-    width: 500px;
-    padding: 0 0 20px;
+    /* line-height: 2em; */
+    width: 18em;
+    padding: 0 0 1.25em;
+    display: inline-block;
 }
 
 .input-wrapper{
     display: inline-block;
     vertical-align: top;
-    width:396px;
+    width:26em;
     float: left;
-    height:490px;
+    height: 32em;
 }
 
 .input-container{
-    height: 456px;
-    width: 396px;
+    height: 32.6em;
+    width: 100%;
     display: block;
 }
 .input-group{
-    padding-bottom: 24px;
-    padding-top: 10px;
+    padding-bottom: 1.5em;
+    padding-top: 0.625em;
     align-items: center;
     background-color: #fff;
     border: none;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-shadow: 0 0.125em 0.25em rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
     box-sizing: border-box;
-    margin: 40px 0 0;
-    padding: 20px 0 28px;
-    width: 396px;
+    margin: 2.5em 0 0;
+    padding: 1.25em 0 1.75em;
+    width: 100%;
  
 }
 
@@ -109,60 +111,67 @@ form{
     display: block;
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 .inputs{
     display: inline-block;
-    font-size: 14px;
+    font-size: 0.875em;
     margin: auto;
-    padding: 6px 0;
-    font-size: 17px;
-    width: 364px;
+    padding: 0.375em 0;
+    font-size: 1.0625em;
+    width: 100%;
 }
 
 .btn-logIn{
-    padding-top: 6px ;
+    padding-top: 0.375em ;
     display: block;
+    width: 100%;
+    margin: auto;
+    font-size: 1.0625em;
 }
 
 .button{
     background-color: #1877f2;
     border: none;
-    border-radius: 6px;
-    font-size: 20px;
-    line-height: 48px;
-    padding: 0 16px;
-    width: 364px;
+    border-radius: 0.5em;
+    font-size: 1.25em;
+    height:2.4em;
+    font-weight: bold;
+    line-height: 3em;
+    padding: 0 1em;
+    width: 92%;
     cursor: pointer;
-    display: inline-block;
-    text-decoration: none;
-    white-space: nowrap;
+    /* display: block; */
+    /* text-decoration: none;
+    white-space: nowrap; */
     color: #fff;
-   font-weight: bold;
     justify-content: center;
+    margin: 0 auto;
+    /* display: inline-block; */
 }
 
 .access-password{
-    margin-top: 16px;
+    margin-top: 1em;
     display:block;
 }
 
 .forgot-password{
     color: #1877f2;
-    font-size: 14px;
+    font-size: 0.875em;
     font-weight: 500;
 }
 
 .line{
     align-items: center;
-    border-bottom: 1px solid #dadde1;
+    border-bottom: 0.0625em solid #dadde1;
     display: flex;
-    margin: 20px 16px;
+    margin: 1.25em 1em;
     text-align: center;
 }
 
 .create{
-    padding-top: 6px;
+    padding-top: 0.375em;
     display: block;
 }
 
@@ -173,31 +182,31 @@ form{
     display: inline-block;
     text-decoration: none;
     white-space: nowrap;
-    font-size: 14px;
+    font-size: 0.875em;
     border: none;
-    border-radius: 6px;
-    font-size: 17px;
-    line-height: 48px;
-    padding: 0 16px;
+    border-radius: 0.375em;
+    font-size: 1.0625em;
+    line-height: 3em;
+    padding: 0 1em;
     font-weight: bold;
     justify-content: center;
 }
 
 .create-page{
     display: block;
-    margin-top: 28px;
+    margin-top: 2em;
     text-align: center;
     border-top: none;
     color: #1c1e21;
     font-family:  Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 0.875em;
     font-weight: normal;
     padding-top: 0;
 }
 
 .celebrity{
     font-family:  Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 0.875em;
     font-weight: 600;
    color: #1c1e21;
    float: left;
@@ -207,7 +216,7 @@ form{
 .business{
     float: left;
     padding-left: 0.35em;
-    font-size: 14px;
+    font-size: 0.875em;
 }
 input {
     text-rendering: auto;
@@ -232,31 +241,31 @@ input {
     border: 1px solid #dddfe2;
     color: #1d2129;
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    line-height: 16px;
-    padding: 0 8px;
+    line-height: .95em;
+    padding: 0 0.5em;
     vertical-align: middle;
-    width: 345px;
-    height:62px;
-    border: 1px solid #dddfe2;
+    width: 89%;
+    height:3.875em;
+    border: 0.0625em solid #dddfe2;
     color: #1d2129;
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    border-radius: 8px;
+    font-size: 0.875em;
+    border-radius: 0.5em;
+  
 }
 
 textarea, .inputtext, .inputpassword {
     border: 1px solid #ccd0d5;
     border-radius: 0;
     margin: 0;
-    padding: 3px;
+    padding: 0.1875em;
 }
 .bottom{
-    padding-top: 20px;
+    padding-top: 1.25em;
     display: block;
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    height: 156px;
+    font-size: 0.75;
+    height: 9.75em;
     background-color:white;
     width: 100%;
 }
@@ -264,7 +273,7 @@ textarea, .inputtext, .inputpassword {
 .pageFooter{
     color: #737373;
     margin: 0 auto;
-    width: 980px;
+    width: 61.25em;
     display: block;
 }
 
@@ -272,7 +281,7 @@ li{
     vertical-align: top;
     border-width: 0 0 0 1px;
     display: inline-block;
-    padding-left: 10px;
+    padding-left: 0.625em;
 }
 
 li:last-child{
@@ -282,13 +291,13 @@ li:last-child{
 .lang-border{
     border-bottom: 1px solid #dddfe2;
     font-size: 1px;
-    height: 8px;
-    margin-bottom: 8px;
+    height: 0.5em;
+    margin-bottom: 0.5em;
     display: block;
 }
 
 .links-cointainer{
-    padding-left: 20px;
+    padding-left: 1.25em;
     vertical-align: top;
     display: inline-block;
 }
@@ -297,25 +306,23 @@ li:last-child{
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    margin-left: -20px;
+    margin-left: -1.25em;
     color: #737373;
-    font-size: 12px;
+    font-size: 0.75em;
     font-weight: normal ;
 }
 
 .copyright{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 11px;
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+    font-size: 0.6875em;
     color: #737373;
-    padding-left: 20px;
+    padding-left: 1.25em;
 }
 
-body, button, input, label, select, td, textarea {
+body, input, label, select, td, textarea {
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 0.95em;
 }
 
-@media (max-width:600px){
 
-}
