@@ -313,11 +313,11 @@ li:last-child{
 }
 
 .copyright{
-    margin-top: 1.25em;
-    margin-bottom: 1.25em;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
     font-size: 0.6875em;
     color: #737373;
-    padding-left: 1.25em;
+    padding-left: 2.5em;
 }
 
 body, input, label, select, td, textarea {
